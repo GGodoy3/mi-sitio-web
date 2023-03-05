@@ -41,6 +41,34 @@ section {
   padding: 5px;
 }
 
+/*experiencia*/
+.experiencia {
+  padding: 40px;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+.seccion-clara .row div {
+  height: 250px;
+  background-color: purple;
+  border: 3px solid orange;
+  /*icono de bootstrap*/
+}
+.seccion-clara .row div .iconos {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+.seccion-clara .row div .experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
 h1 {
   font-size: 2.5rem;
   font-family: "Abril Fatface", cursive;
