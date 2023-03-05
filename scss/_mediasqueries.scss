@@ -1,0 +1,14 @@
+/*adaptable responsivo*/
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+/*Hero Inferior Imagen*/
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }    
+}

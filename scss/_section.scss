@@ -1,0 +1,35 @@
+/* Estilos Generales*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*sobre mi*/
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+
+    .contenedor {
+        max-width: 600px;
+        text-align: center;
+
+        .seccion-titulo {
+            font-size: 2rem;
+            padding: 15px 0;
+            font-family: 'Abril Fatface', cursive;
+
+            .seccion-texto {
+                font-size: 1.2rem;
+                padding: 5px;
+            }
+        }
+    }
+}
