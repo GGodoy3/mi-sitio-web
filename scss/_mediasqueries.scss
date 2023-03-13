@@ -12,3 +12,15 @@
         max-width: 600px;
     }    
 }
+
+/*Proyectos*/
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    } 
+
+    .overlay i {
+        font-size: 40px;
+    }
+}

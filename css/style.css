@@ -121,6 +121,12 @@ h1 {
   padding: 40px;
 }
 
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
 .texto-negro {
   color: black;
 }
@@ -147,8 +153,7 @@ h1 {
   padding-top: 60px;
   margin-bottom: 40px;
 }
-
-.overlay {
+.proyectos-contenedor .overlay {
   transition: all 0.2s ease;
   opacity: 0;
   position: absolute;
@@ -157,7 +162,7 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.overlay .overlay p {
+.proyectos-contenedor .overlay .overlay p {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
@@ -175,6 +180,16 @@ h1 {
   opacity: 1;
 }
 
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
 /*adaptable responsivo*/
 @media screen and (max-width: 767px) {
   .navbar-brand {
@@ -185,6 +200,15 @@ h1 {
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
+  }
+}
+/*Proyectos*/
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+  .overlay i {
+    font-size: 40px;
   }
 }
 /*siempre en el ultimo lugar*/
