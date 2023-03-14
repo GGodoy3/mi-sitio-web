@@ -6,18 +6,6 @@
     }
 }
 
-/*Testimonios*/
-@media screen and (max-width: 800px) {
-    .testimonio-imagen {
-        height: 120px;
-        width: 120px;
-    }
-
-    .testimonio-texto {
-        font-size: 18px;
-    }
-}
-
 /*Hero Inferior Imagen*/
 @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
@@ -37,3 +25,14 @@
     }
 }
 
+/*Testimonios*/
+@media screen and (max-width: 800px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+}
